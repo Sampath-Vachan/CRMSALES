@@ -1,0 +1,9 @@
+{
+	"name": "crmdataf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "75991ef5-19e0-4c8f-b51a-beb059c64e44",
+		"tenantId": "85279f02-1195-49ab-a57b-849f3b1d8a47"
+	}
+}
