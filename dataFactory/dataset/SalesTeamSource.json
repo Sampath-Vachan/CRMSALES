@@ -1,0 +1,22 @@
+{
+	"name": "SalesTeamSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "CRMSALES/refs/heads/dev/sales_teams.csv?token=GHSAT0AAAAAADRMMGB6ZYWT2CXJ4GZVFSOQ2KBKPDA"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

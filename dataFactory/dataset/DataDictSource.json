@@ -1,0 +1,22 @@
+{
+	"name": "DataDictSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/data_dictionary.csv?token=GHSAT0AAAAAADRMMGB7LXPS6I4KMDQV6GA42KBKIYQ"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

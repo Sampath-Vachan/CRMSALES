@@ -1,0 +1,22 @@
+{
+	"name": "SalesPipelineSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/sales_pipeline.csv?token=GHSAT0AAAAAADRMMGB6FWUP5MNX2WVXW5XW2KBKN4A"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
