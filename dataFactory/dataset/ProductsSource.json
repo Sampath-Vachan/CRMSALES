@@ -1,0 +1,22 @@
+{
+	"name": "ProductsSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/products.csv?token=GHSAT0AAAAAADRMMGB7SQ4XV6SAG4ZA3TF42KBKL3Q"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
