@@ -1,0 +1,22 @@
+{
+	"name": "AccountSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SourceGit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/accounts.csv?token=GHSAT0AAAAAADRMMGB7SPL5HQSBWKA5BSEY2KBJRQA"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
