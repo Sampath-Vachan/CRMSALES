@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/data_dictionary.csv?token=GHSAT0AAAAAADRMMGB7LXPS6I4KMDQV6GA42KBKIYQ"
+				"relativeUrl": "Sampath-Vachan/CRMSALES/refs/heads/dev/data_dictionary.csv?token=GHSAT0AAAAAADRMMGB7DC2A6SV4QKOCKG5E2KBL3NA"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
