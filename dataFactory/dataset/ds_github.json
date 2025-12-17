@@ -5,11 +5,20 @@
 			"referenceName": "SourceGit",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "Sampath-Vachan/CRMSALES/refs/heads/main/@{dataset().file_name}",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
