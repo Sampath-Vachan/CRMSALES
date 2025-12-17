@@ -62,6 +62,7 @@
 				"name": "ForAllActivities",
 				"type": "ForEach",
 				"dependsOn": [],
+				"userProperties": [],
 				"typeProperties": {
 					"items": {
 						"value": "@pipeline().parameters.p_array",
@@ -127,7 +128,13 @@
 							"outputs": [
 								{
 									"referenceName": "ADLS_RAW",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"file_name": {
+											"value": "@item().file_name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
