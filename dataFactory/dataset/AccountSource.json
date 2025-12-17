@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Sampath-Vachan/CRMSALES/blob/dev/accounts.csv"
+				"relativeUrl": "dev/accounts.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
