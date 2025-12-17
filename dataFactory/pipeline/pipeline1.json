@@ -25,7 +25,7 @@
 					"method": "POST",
 					"url": "https://prod-06.southindia.logic.azure.com:443/workflows/564d95f35ecc43e89f4e65b77f2b211e/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=J6jH0UrkBZTdDUBleXqyx1EjxCdFlIgsAaBhdOAZ-jY",
 					"body": {
-						"value": "{\n \"pipelineName\": \"@{pipeline().Pipeline}\",\n  \"pipelineRunId\": \"@{pipeline().RunId}\",\n  \"status\": \"Succeeded\"\n  \"startTime\": \"@{pipeline().TriggerTime},\n  \"endTime\": \"@{utcNow()}\"\n}",
+						"value": "{\n \"pipelineName\": \"@{pipeline().Pipeline}\",\n  \"pipelineRunId\": \"@{pipeline().RunId}\",\n  \"status\": \"Succeeded\",\n  \"startTime\": \"@{pipeline().TriggerTime},\n  \"endTime\": \"@{utcNow()}\"\n}",
 						"type": "Expression"
 					}
 				}
@@ -53,7 +53,7 @@
 					"method": "POST",
 					"url": "https://prod-06.southindia.logic.azure.com:443/workflows/564d95f35ecc43e89f4e65b77f2b211e/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=J6jH0UrkBZTdDUBleXqyx1EjxCdFlIgsAaBhdOAZ-jY",
 					"body": {
-						"value": "{\n \"pipelineName\": \"@{pipeline().Pipeline}\",\n  \"pipelineRunId\": \"@{pipeline().RunId}\",\n  \"status\": \"Failed\"\n  \"startTime\": \"@{pipeline().TriggerTime},\n  \"endTime\": \"@{utcNow()}\"\n}\n",
+						"value": "{\n \"pipelineName\": \"@{pipeline().Pipeline}\",\n  \"pipelineRunId\": \"@{pipeline().RunId}\",\n  \"status\": \"Failed\",\n  \"startTime\": \"@{pipeline().TriggerTime},\n  \"endTime\": \"@{utcNow()}\"\n}\n",
 						"type": "Expression"
 					}
 				}
