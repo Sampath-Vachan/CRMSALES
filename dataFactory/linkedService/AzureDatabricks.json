@@ -7,7 +7,14 @@
 			"domain": "https://adb-7405619533991779.19.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/e944e05e-1b2a-428c-b510-584c24b9a76d/resourceGroups/CRMSales/providers/Microsoft.Databricks/workspaces/CRMPractice",
-			"existingClusterId": "1217-101954-o562k7rv"
+			"newClusterNodeType": "Standard_D4s_v5",
+			"newClusterNumOfWorker": "2:4",
+			"newClusterSparkEnvVars": {
+				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+			},
+			"newClusterVersion": "17.3.x-photon-scala2.13",
+			"clusterOption": "Autoscaling",
+			"newClusterInitScripts": []
 		}
 	}
 }
