@@ -7,7 +7,7 @@
 				"type": "WebActivity",
 				"dependsOn": [
 					{
-						"activity": "ForAllActivities",
+						"activity": "Datacleansing",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -139,6 +139,33 @@
 							]
 						}
 					]
+				}
+			},
+			{
+				"name": "Datacleansing",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "ForAllActivities",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/DataCleaning/SalesDataCleaningNB"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks",
+					"type": "LinkedServiceReference"
 				}
 			}
 		],
