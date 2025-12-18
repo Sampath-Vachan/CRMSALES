@@ -7,8 +7,8 @@
 			"domain": "https://adb-7405619533991779.19.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/e944e05e-1b2a-428c-b510-584c24b9a76d/resourceGroups/CRMSales/providers/Microsoft.Databricks/workspaces/CRMPractice",
-			"newClusterNodeType": "Standard_D4s_v5",
-			"newClusterNumOfWorker": "1",
+			"newClusterNodeType": "Standard_DS3_v2",
+			"newClusterNumOfWorker": "2",
 			"newClusterVersion": "17.3.x-photon-scala2.13",
 			"clusterOption": "Fixed",
 			"newClusterInitScripts": []
