@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "crmdataf"
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://crmstoragest.dfs.core.windows.net/"
+		},
+		"AzureDatabricks_properties_typeProperties_existingClusterId": {
+			"value": "1219-050308-5w853j4r"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://CRMKV.vault.azure.net/"
+		},
+		"SourceGit_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		}
+	}
+}
